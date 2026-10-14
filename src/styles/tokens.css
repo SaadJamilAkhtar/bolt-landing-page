@@ -1,0 +1,57 @@
+/*
+  Design tokens — "Forge & Zinc"
+  Mill-black steel, galvanized zinc greys, spec-sheet paper, hot-forge orange,
+  and a blueprint navy that carries every technical drawing on the site.
+*/
+:root {
+  /* mill black → galvanized zinc */
+  --ink-950: #0b0c0e;
+  --ink-900: #111316;
+  --ink-850: #171a1e;
+  --ink-800: #1d2126;
+  --ink-700: #2a2f35;
+  --ink-600: #3d444c;
+  --steel-500: #5d6670;
+  --steel-400: #8a929b;
+  --steel-300: #b4bac1;
+  --steel-200: #d6dadf;
+  --steel-100: #e8eaed;
+  --paper: #f3f1ec;
+  --paper-deep: #e9e6de;
+  --white: #fbfbf9;
+
+  /* forge */
+  --forge-500: #ff5b14;
+  --forge-600: #e04600;
+  --forge-700: #b83900;
+  --forge-100: #ffe6d9;
+
+  /* blueprint */
+  --blue-900: #0a2747;
+  --blue-800: #0f3a68;
+  --blue-600: #1d5a99;
+  --blue-500: #2f7fc1;
+  --blue-300: #8dc2ee;
+  --blue-100: #dcecf8;
+
+  /* signals */
+  --ok: #2b8a54;
+  --warn: #c98a08;
+  --err: #c8372d;
+
+  /* type */
+  --font-display: 'Big Shoulders Display', 'Arial Narrow', Impact, sans-serif;
+  --font-body: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  /* rhythm */
+  --gutter: clamp(16px, 3vw, 32px);
+  --measure: 66ch;
+  --wrap: 1240px;
+  --radius: 2px;
+
+  --line: 1px solid var(--steel-200);
+  --line-dark: 1px solid var(--ink-700);
+
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
